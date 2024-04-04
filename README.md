@@ -1,4 +1,5 @@
-## Aeroporto
+### Português (pt-br)
+# Aeroporto
 Projeto realizado em java, que consiste na utilização de grafo e lista ligada para simular um CRUD aeroportos e vôos entre esses aeroportos
 
 ## Estrutura de arquivos
@@ -14,3 +15,17 @@ Ao escolher a opção desejada, o programa te encaminhará a sua funcionalidade,
 e por aí vai...
 
 Todas as opções foram testadas funcionalmente e aprovadas por um professor qualificiado da instituição de ensino chamada COTUCA (Colégio Técnico de Campinas).
+
+### English (en-us)
+# Airport
+Java project designed to use graphs and linked lists to simulate a CRUD (Create, Read, Update, Delete) system for airports and flights between them.
+
+## File Structure
+The project is structured around a main class called "Main," which contains execution loops in the terminal, providing graphical access to the functionalities of the system. There is a class called "Airport," which represents an airport itself, "Airports" that represent multiple airports, "Flight" represents a flight with its specific information, and "Flights" represent a chain of flights. Finally, there is a class called "SimpleLinkedList" that represents a linked list and contains methods for insertion, deletion, etc.
+
+## How it Works
+The functional activity of this project begins with compiling the Main class, which contains the static 'main' method. Upon running the program, you will see a menu with various options such as adding a flight, adding an airport, searching for a flight, and more.
+
+Upon choosing the desired option, the program will guide you to its functionality, triggering exceptions if you select invalid options or input characters outside the standard format.
+
+All options have been functionally tested and approved by a qualified professor from the educational institution called COTUCA (Technical High School of Campinas).
